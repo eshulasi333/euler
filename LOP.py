@@ -1,3 +1,7 @@
+def unnessary(n):
+    my_pet='not you'
+    '''before reading just a fun'''
+    return None
 size=list(map(int,input("enter row and coloumn ").split()))
 row=size[0]
 coloumn=size[1]
@@ -11,4 +15,5 @@ for w in range(row):
     if mine<er:
         mine=er
 print(mine)
+
     
